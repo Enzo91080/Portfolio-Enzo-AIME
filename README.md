@@ -44,9 +44,9 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-<img src="screenshots/french.svg">
+<img src="screenshots/france.png.svg">
 Si vous voulez cloner le projet et en faire votre portfolio personnel
-<img src="screenshots/english.svg" >
+<img src="screenshots/united-states-of-america.png.svg" >
 [AN]If you want to clone the project and make you personal portfolio
 
 ### Installation
