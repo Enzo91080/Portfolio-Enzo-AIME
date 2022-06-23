@@ -45,10 +45,13 @@
 ## Getting Started
 
 <img src="screenshots/france.png">
+<p>
 Si vous voulez cloner le projet et en faire votre portfolio personnel
-<img src="screenshots/united-states-of-america.png" >
+</p>
+<img src="screenshots/united-states-of-america.png" style="widt">
+<p>
 [AN]If you want to clone the project and make you personal portfolio
-
+</p>
 ### Installation
 
 1. Clone the repo
