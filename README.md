@@ -18,11 +18,11 @@
 
 <p align="center">
   <p align="center">A Propos</p>
-  <img src="screenshots/about.PNG.png" alt="Home section">
+  <img src="screenshots/about.PNG" alt="Home section">
 </p>
 <p align="center">
   <p align="center">Parcours</p>
-  <img src="screenshots/home.png" alt="Home section">
+  <img src="screenshots/experience.PNG" alt="Home section">
 </p>
 <br />
 <p align="center">
