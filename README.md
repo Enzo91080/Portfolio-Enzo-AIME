@@ -45,11 +45,11 @@
 ## Getting Started
 
 <img src="screenshots/france.png" style="width:3%">
-<p style="display: inline;">
+<p>
     Si vous voulez cloner le projet et en faire votre portfolio personnel
 </p>
-<img src="screenshots/united-states-of-america.png" style="widt">
-<p display: inline;>
+<img src="screenshots/united-states-of-america.png" style="width:3%">
+<p>
 [AN]If you want to clone the project and make you personal portfolio
 </p>
 ### Installation
