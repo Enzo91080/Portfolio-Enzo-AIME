@@ -50,7 +50,7 @@
 </p>
 <img src="screenshots/united-states-of-america.png" style="width:3%">
 <p>
-[AN]If you want to clone the project and make you personal portfolio
+    If you want to clone the project and make you personal portfolio
 </p>
 ### Installation
 
