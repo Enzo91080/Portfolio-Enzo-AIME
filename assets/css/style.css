@@ -536,6 +536,8 @@ main {
   color: var(--ma_couleur);
 }
 
+
+
 .switch {
   position: relative;
   display: inline-block;
@@ -957,32 +959,40 @@ input:checked+.slider:before {
 .portfolio-modal .modal-content h2 {
 	font-size: 1.8rem;
 	line-height: 3rem;
+  color: var(--white-2);
 }
 
 .portfolio-modal .modal-content p.item-introduction {
-	font-style: italic;
 	margin-bottom: 2rem;
 	text-align: justify;
 	text-align-last: center;
+
+  color: var(--light-gray-70);
+  font-weight: var(--fw-300);
 }
 
 .portfolio-modal .modal-content p {
-	font-family: 'univiapro', sans-serif;
-	font-weight: 600;
 	text-align: justify;
+	color: var(--light-gray);
+	font-weight: var(--fw-300);
+	line-height: 1.6;
 }
 
 .portfolio-modal .modal-content h3 {
 	margin-bottom: 2rem;
 	text-align: justify;
 	text-align-last: center;
-	font-weight: bold;
 	text-decoration: underline;
+
+  color: var(--light-gray-70);
+  font-weight: var(--fw-300);
 }
 
 .portfolio-modal .modal-content ul.list-inline {
 	margin-bottom: 2rem;
 	font-weight: 500;
+  color: var(--light-gray-70);
+  font-weight: var(--fw-300);
 }
 
 .portfolio-modal .modal-content img {
@@ -1007,9 +1017,7 @@ input:checked+.slider:before {
 	cursor: pointer;
 }
 
-button.btn.btn-primary.btn-xl.text-uppercase {
-	font-family: 'univiapro', sans-serif;
-}
+
 
 
 /**
@@ -1303,7 +1311,6 @@ button.btn.btn-primary.btn-xl.text-uppercase {
 
 .project-item-icon-box {
   --scale: 0.8;
-
   background: var(--jet);
   color: var(--ma_couleur);
   position: absolute;
@@ -1312,11 +1319,20 @@ button.btn.btn-primary.btn-xl.text-uppercase {
   transform: translate(-50%, -50%) scale(var(--scale));
   font-size: 20px;
   padding: 18px;
-  border-radius: 12px;
+  border-radius: 5px;
   opacity: 0;
   z-index: 1;
   transition: var(--transition-1);
 }
+
+.project-item-icon-box:hover {
+  background: var(--ma_couleur);
+  color:#fff;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+
 
 .project-item>a:hover .project-item-icon-box {
   --scale: 1;
