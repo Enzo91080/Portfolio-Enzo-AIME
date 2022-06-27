@@ -8,8 +8,15 @@
  */
 
 
-
-
+ /* Fonts */
+ @font-face {font-family: "DystopianRegular";
+  src: url("../fonts/DystopianRegular/Dystopian.eot"); /* IE9*/
+  src: url("../fonts/DystopianRegular/Dystopian.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/DystopianRegular/Dystopian.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/DystopianRegular/Dystopian.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/DystopianRegular/Dystopian.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/DystopianRegular/Dystopian.svg#Dystopian Regular") format("svg"); /* iOS 4.1- */
+}
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -635,6 +642,7 @@ input:checked+.slider:before {
 
 .about .article-title {
   margin-bottom: 15px;
+  font-family: DystopianRegular;
 }
 
 .about-text {
@@ -768,8 +776,6 @@ lottie-player {
   font-weight: var(--fw-300);
   line-height: 1.6;
   display: -webkit-box;
-  line-clamp: 4;
-  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -1910,8 +1916,6 @@ textarea.form-input::-webkit-resizer {
   }
 
   .loisirs-text {
-    line-clamp: 2;
-    -webkit-line-clamp: 2;
   }
 
   /* loisirs modal */
@@ -2111,6 +2115,7 @@ textarea.form-input::-webkit-resizer {
 
   .article-title {
     padding-bottom: 20px;
+    font-family: DystopianRegular;
   }
 
   .filter-select-box {
