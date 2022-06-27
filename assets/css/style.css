@@ -373,6 +373,22 @@ main {
   margin-bottom: 10px;
 }
 
+.info-content:first-child:hover {
+
+	background:var(--ma_couleur);
+  border-radius: 15px;
+}
+
+.info-content svg{
+  margin-top: 10px;
+}
+
+.info-content svg:hover{
+  fill:rgb(255, 255, 255)
+}
+
+
+
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
@@ -382,6 +398,7 @@ main {
   padding: 3px 12px;
   border-radius: 8px;
 }
+
 
 .info_more-btn {
   position: absolute;
@@ -536,6 +553,14 @@ main {
   color: var(--ma_couleur);
 }
 
+#dateheure {
+  background-color: #26e8a0;
+  line-height: 5px;
+  border-radius: 15px;
+  color:#000000;
+  box-shadow: var(--shadow-2);
+  
+}
 
 
 .switch {
@@ -686,18 +711,18 @@ input:checked+.slider:before {
 
 
 /**
- * #avis 
+ * #loisirs 
  */
 
-.avis {
+.loisirs {
   margin-bottom: 30px;
 }
 
-.avis-title {
+.loisirs-title {
   margin-bottom: 20px;
 }
 
-.avis-list {
+.loisirs-list {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -711,12 +736,12 @@ input:checked+.slider:before {
   scroll-snap-type: inline mandatory;
 }
 
-.avis-item {
+.loisirs-item {
   min-width: 100%;
   scroll-snap-align: center;
 }
 
-.avis-avatar-box {
+.loisirs-avatar-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -726,11 +751,18 @@ input:checked+.slider:before {
   box-shadow: var(--shadow-1);
 }
 
-.avis-item-title {
+lottie-player {
+  background:transparent;
+  speed:0.5;  
+  width: 80px; 
+  height: 80px;
+}
+
+.loisirs-item-title {
   margin-bottom: 7px;
 }
 
-.avis-text {
+.loisirs-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -744,7 +776,7 @@ input:checked+.slider:before {
 
 
 /**
- * #avis-modal
+ * #loisirs-modal
  */
 
 .modal-container {
@@ -792,7 +824,7 @@ input:checked+.slider:before {
   pointer-events: all;
 }
 
-.avis-modal {
+.loisirs-modal {
   background: var(--eerie-black-2);
   position: relative;
   padding: 15px;
@@ -806,7 +838,7 @@ input:checked+.slider:before {
   z-index: 2;
 }
 
-.modal-container.active .avis-modal {
+.modal-container.active .loisirs-modal {
   transform: scale(1);
   opacity: 1;
 }
@@ -852,14 +884,14 @@ input:checked+.slider:before {
   margin-bottom: 4px;
 }
 
-.modal-content-avis time {
+.modal-content-loisirs time {
   font-size: var(--fs-6);
   color: var(--light-gray-70);
   font-weight: var(--fw-300);
   margin-bottom: 10px;
 }
 
-.modal-content-avis p {
+.modal-content-loisirs p {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -1837,22 +1869,22 @@ textarea.form-input::-webkit-resizer {
     text-align: left;
   }
 
-  /* avis */
+  /* loisirs */
 
-  .avis-title {
+  .loisirs-title {
     margin-bottom: 25px;
   }
 
-  .avis-list {
+  .loisirs-list {
     gap: 30px;
     margin: 0 -30px;
     padding: 45px;
-    padding-bottom: 35px;
+    padding-bottom: 36px;
   }
 
   .content-card {
     padding: 30px;
-    padding-top: 25px;
+    padding-top: 60px;
     transition: all 0.3s ease-in-out;
   }
 
@@ -1861,34 +1893,34 @@ textarea.form-input::-webkit-resizer {
   }
 
 
-  .avis-avatar-box {
-    transform: translate(30px, -30px);
+  .loisirs-avatar-box {
+    transform: translate(150px, -30px);
     border-radius: 20px;
   }
 
-  .avis-avatar-box img {
+  .loisirs-avatar-box img {
     width: 80px;
     border-radius: 20px;
 
   }
 
-  .avis-item-title {
+  .loisirs-item-title {
     margin-bottom: 10px;
-    margin-left: 95px;
+    text-align: center;
   }
 
-  .avis-text {
+  .loisirs-text {
     line-clamp: 2;
     -webkit-line-clamp: 2;
   }
 
-  /* avis modal */
+  /* loisirs modal */
 
   .modal-container {
     padding: 20px;
   }
 
-  .avis-modal {
+  .loisirs-modal {
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
@@ -2059,9 +2091,9 @@ textarea.form-input::-webkit-resizer {
    * ABOUT
    */
 
-  /* avis modal */
+  /* loisirs modal */
 
-  .avis-modal {
+  .loisirs-modal {
     gap: 35px;
     max-width: 680px;
   }
@@ -2226,9 +2258,9 @@ textarea.form-input::-webkit-resizer {
     gap: 20px 25px;
   }
 
-  /* avis */
+  /* loisirs */
 
-  .avis-item {
+  .loisirs-item {
     min-width: calc(50% - 15px);
   }
 

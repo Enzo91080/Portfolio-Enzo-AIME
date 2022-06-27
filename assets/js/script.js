@@ -26,39 +26,39 @@ const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
 
-const avisItem = document.querySelectorAll("[data-avis-item]");
+const loisirsItem = document.querySelectorAll("[data-loisirs-item]");
 
 
-// avis variables
+// loisirs variables
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
 const modalText = document.querySelector("[data-modal-text]");
 
 // modal toggle function
-const avisModalFunc = function() {
+const loisirsModalFunc = function() {
     modalContainer.classList.toggle("active");
     overlay.classList.toggle("active");
 }
 
 // add click event to all modal items
-for (let i = 0; i < avisItem.length; i++) {
+for (let i = 0; i < loisirsItem.length; i++) {
 
-    avisItem[i].addEventListener("click", function() {
+    loisirsItem[i].addEventListener("click", function() {
 
-        modalImg.src = this.querySelector("[data-avis-avatar]").src;
-        modalImg.alt = this.querySelector("[data-avis-avatar]").alt;
-        modalTitle.innerHTML = this.querySelector("[data-avis-title]").innerHTML;
-        modalText.innerHTML = this.querySelector("[data-avis-text]").innerHTML;
+        modalImg.src = this.querySelector("[data-loisirs-avatar]").src;
+        modalImg.alt = this.querySelector("[data-loisirs-avatar]").alt;
+        modalTitle.innerHTML = this.querySelector("[data-loisirs-title]").innerHTML;
+        modalText.innerHTML = this.querySelector("[data-loisirs-text]").innerHTML;
 
-        avisModalFunc();
+        loisirsModalFunc();
 
     });
 
 }
 
 // add click event to modal close button
-modalCloseBtn.addEventListener("click", avisModalFunc);
-overlay.addEventListener("click", avisModalFunc);
+modalCloseBtn.addEventListener("click", loisirsModalFunc);
+overlay.addEventListener("click", loisirsModalFunc);
 
 
 
