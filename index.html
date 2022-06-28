@@ -20,6 +20,7 @@
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  
 
 
   <!--
@@ -223,7 +224,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projets</button>
           </li>
 
           <li class="navbar-item">
@@ -446,7 +447,7 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">| STAGE EN ENTREPRISE</h4>
+              <h4 class="h4 timeline-item-title">| STAGE EN ENTREPRISE | <img src="assets/images/icon-thales.svg"></h4>
 
               <span>Janvier - Février 2022</span>
 
@@ -458,7 +459,7 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">| STAGE EN ENTREPRISE</h4>
+              <h4 class="h4 timeline-item-title">| STAGE EN ENTREPRISE | <img src="assets/images/icon-thales.svg"></h4>
 
               <span>Mai - Juin 2021</span>
 
@@ -654,10 +655,10 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="projets">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projets</h2>
         </header>
 
         <section class="projects">
@@ -669,7 +670,7 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Développement Web</button>
             </li>
 
             <li class="filter-item">
@@ -677,8 +678,10 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Réseaux</button>
             </li>
+
+    
 
           </ul>
 
@@ -701,7 +704,7 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Développement Web</button>
               </li>
 
               <li class="select-item">
@@ -709,7 +712,7 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Réseaux</button>
               </li>
 
             </ul>
@@ -719,20 +722,20 @@
           <ul class="project-list">
             
 
-            <li class="project-item  active"    data-filter-item data-category="web development">
+            <li class="project-item  active"    data-filter-item data-category="développement web">
               <a>
 
                 <figure class="project-img" >
-                  <div class="project-item-icon-box" data-toggle="modal" href="#art1">
+                  <div class="project-item-icon-box" data-toggle="modal" href="#projet1">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/portfolio/GsbConference.jpg" data-loisirs-avatar alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title" data-loisirs-title>Finance</h3>
+                <h3 class="project-title" data-loisirs-title>GSB3</h3>
 
-                <p class="project-category" data-loisirs-text>Web development</p>
+                <p class="project-category" data-loisirs-text>Application Web</p>
 
               </a>
             </li>
@@ -1151,32 +1154,69 @@
                                   <ion-icon name="close-outline"></ion-icon>
                                 </button>
                                 
-                                <div class="container">
-                                   <div class="row justify-content-center">
-                                      <div class="col-lg-8">
-                                         <div class="modal-body">
-                                            <!-- Project Details Go Here-->
-                                            <h2 class="text-uppercase">GSB</h2>
-                                            <p class="item-introduction text-muted">Article n°1 : Une puce sous la peau pour payer ou pour valider son pass sanitaire ? Ca existe déjà en Suède
-                                            </p>
-                                            <img class="img-fluid d-block mx-auto" src="./assets/images/veille/article1/article1.jfif"
-                                               alt="article1" />
-                                            <h3>Résumé</h3>
-                                            <p>Avoir une puce sous la peau, le but est de posséder son pass sanitaire directement dans le poignet. L'implantation de cette puce dans le poignet ne nécessite pas d'anesthésie. Cette puce minuscule faisant la taille d'un grain de riz à déjà été testé par plusieurs  milliers de personnes avant le Covid. Cet implant, permettrai de ne pas avoir à sortir une carte ou un smartphone, badger à son club de gym,payer un verre au café, ou encore valider son titre de transport la compagnie ferroviaire SNCF qui accepte les implants électroniques comme billet. L'achat du billet se fait par internet,   il suffit de présenter sa main quand on se fait contrôler. Certaines entreprises ont pour objectifs de mettre en place des implants à la place de badge d'accès. Puce qui aurait d'autres fonctionnalités comme déverrouiller des portes, photocopier des documents, déverrouiller un ordinateur avec un capteur. Certaines personnes sont réticente à se faire implanter des puces parce qu'ils ont l'impression d'être espionnés. 
-                                            </p>
-                                            <ul class="list-inline">
-                                               <li>Date: Janvier 2022</li>
-                                               <li>Sources: RMC</li>
-                                            </ul>
-                                            <button class="btn btn-primary" data-dismiss="modal" type="button"> <i class="fas fa-reply"></i>
-                                            Fermer la fenêtre</button>
-                                            <button class="btn btn-primary"
-                                               onclick="window.location.href='https://rmc.bfmtv.com/replay-emissions/estelle-midi/une-puce-sous-la-peau-pour-payer-ou-pour-valider-son-pass-sanitaire-ca-existe-deja-en-suede_AV-202201170617.html';"> 
-                                               <i class="fas fa-newspaper"></i> Voir l'article</button>
-                                         </div>
-                                      </div>
-                                   </div>
-                                </div>
+                                  <div class="container">
+                                     <div class="row gy-4">
+                                        <div class="col-lg-8">
+                                           <div class="portfolio-details-slider swiper">
+                                              <div class="swiper-wrapper align-items-center">
+                                                 <div class="swiper-slide" >
+                                                    <a href="assets/images/portfolio/slider/GsbConf/GsbConf1.jpg" data-project="portfolioGallery"
+                                                    class="project-lightbox preview-link">
+                                                    <img src="assets/images/portfolio/slider/GsbConf/GsbConf1.jpg" alt="">
+                                                    </a>
+                                                 </div>
+                                                 <div class="swiper-slide" >
+                                                  <a href="assets/images/portfolio/slider/GsbConf/GsbConf2.jpg" data-project="portfolioGallery"
+                                                  class="project-lightbox preview-link">
+                                                    <img src="assets/images/portfolio/slider/GsbConf/GsbConf2.jpg" alt="">
+                                                    </a>
+                                                 </div>
+                                                   
+                                              </div>
+                                              <div class="swiper-pagination"></div>
+                                              <div class="portfolio-description">
+                                                 <h2>Contexte</h2>
+                                                 <p>Le laboratoire GalaxySwiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy et le conglomérat européen Swiss Bourdin, lui-même déjà union de trois petits laboratoires.
+                                                    Ses laboratoires ont fusionnés en 2009 afin de devenir un des leaders de l’industrie pharmaceutique.
+                                                    Le laboratoire désire mettre à disposition des visiteurs médicaux une application WEB permettant de centraliser les comptes rendus de visite. Cette base d’information sera utilisée à des fins d’élaboration de la démarche de communication auprès des praticiens.
+                                              </p>
+                                                 <h2>Les Besoins</h2>
+                                                 <p>       
+                                                    L'application est destinée à la fois aux visiteurs médicaux et aux comptables en charges de leur gestion. Elle permet de saisir et d’enregistrer tous les frais engagés par les visiteurs médicaux aussi bien pour l’activité directe (déplacement, restauration et hébergement) que pour les activités annexes (événementiel, conférences, autres).     
+                                                 </p> 
+                                              </div>
+                                           </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                           <div class="portfolio-info">
+                                              <h3>Informations</h3>
+                                              <ul>
+                                                 <li><strong>Catégorie</strong> : Application Web </li>
+                                                 <li><strong>Langage</strong> : HTML, CSS, PHP, SQL</li>
+                                                 <li><strong>Outils</strong> : MariaDB </li>
+                                                 <li><strong>Méthode</strong> : Modèle-Vue-Contrôleur (MVC) </li>
+                                                 <li><strong>Date</strong> : Novembre 2021</li>
+                                                 <li><strong>Collaboration</strong> :
+                                                    <br> 
+                                                    <a id="collabYohann" href="https://yohann-fremont.fr/"> 
+                                                    <i class="fas fa-code"></i> Yohann Fremont</a>
+                                                    <br> 
+                                                    <a id="collabAlan" href="https://portfolio-2cb7d.web.app/"> 
+                                                    <i class="far fa-circle"></i>  Alan Boloorian</a>
+                                                 </li>
+                                              </ul>
+                                              <br>
+                                              <h3>Compétences</h3>
+                                              <li>Répondre aux incidents et aux demandes d’assistance et d’évolution</li>
+                                              <li>Travailler en mode projet</li>
+                                              <li>Organiser son développement professionnel</li>
+                                           </div>
+                                           <a class="btn btn-primary text-uppercase" href="portfolio-details-SiteMarchand.html"><i class="fas fa-shower"></i> Projet AudioShower</a>
+                      
+                                        </div>
+                                     </div>
+                                  </div>
+                               </section>
                              </div>
                           </div>
                        </div>
@@ -1242,6 +1282,7 @@
   <script src="./assets/js/bootstrap.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
   <!--
     - ionicon link

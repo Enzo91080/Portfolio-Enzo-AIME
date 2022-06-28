@@ -567,6 +567,7 @@ main {
   color:#000000;
   box-shadow: var(--shadow-2);
   
+  
 }
 
 
@@ -1141,6 +1142,10 @@ lottie-player {
   font-size: var(--fs-6);
   line-height: 1.3;
   margin-bottom: 7px;
+}
+
+.timeline-item-title img {
+  width: 15%;
 }
 
 .timeline-list span {
