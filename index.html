@@ -20,7 +20,8 @@
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
-  
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.cssSS">
+
 
 
   <!--
@@ -1153,38 +1154,49 @@
                                 <button class="modal-close-btn" data-dismiss="modal">
                                   <ion-icon name="close-outline"></ion-icon>
                                 </button>
-                                
+                                <section id="portfolio-details" class="portfolio-details">
                                   <div class="container">
                                      <div class="row gy-4">
                                         <div class="col-lg-8">
+                                           
                                            <div class="portfolio-details-slider swiper">
                                               <div class="swiper-wrapper align-items-center">
                                                  <div class="swiper-slide" >
                                                     <a href="assets/images/portfolio/slider/GsbConf/GsbConf1.jpg" data-project="portfolioGallery"
                                                     class="project-lightbox preview-link">
-                                                    <img src="assets/images/portfolio/slider/GsbConf/GsbConf1.jpg" alt="">
+                                                    <img src="assets/images/portfolio/slider/GsbConf/GsbConf1.jpg" alt=""> 
                                                     </a>
                                                  </div>
                                                  <div class="swiper-slide" >
-                                                  <a href="assets/images/portfolio/slider/GsbConf/GsbConf2.jpg" data-project="portfolioGallery"
-                                                  class="project-lightbox preview-link">
-                                                    <img src="assets/images/portfolio/slider/GsbConf/GsbConf2.jpg" alt="">
+                                                    <a href="assets/img/portfolio/slider/GsbConf/GsbConf2.jpg" data-project="portfolioGallery"
+                                                    class="project-lightbox preview-link">
+                                                    <img src="assets/img/portfolio/slider/GsbConf/GsbConf2.jpg" alt=""> 
                                                     </a>
                                                  </div>
-                                                   
+                                                 <div class="swiper-slide" >
+                                                    <a href="assets/img/portfolio/slider/GsbConf/GsbConf3.jpg" data-project="portfolioGallery"
+                                                    class="project-lightbox preview-link">
+                                                    <img src="assets/img/portfolio/slider/GsbConf/GsbConf3.jpg" alt=""> 
+                                                    </a>
+                                                 </div>
+                                                 <div class="swiper-slide" >
+                                                    <a href="assets/img/portfolio/slider/GsbConf/GsbConf4.jpg" data-project="portfolioGallery"
+                                                    class="project-lightbox preview-link">
+                                                    <img src="assets/img/portfolio/slider/GsbConf/GsbConf4.jpg" alt=""> 
+                                                    </a>
+                                                 </div>
+                      
                                               </div>
                                               <div class="swiper-pagination"></div>
                                               <div class="portfolio-description">
                                                  <h2>Contexte</h2>
-                                                 <p>Le laboratoire GalaxySwiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy et le conglomérat européen Swiss Bourdin, lui-même déjà union de trois petits laboratoires.
-                                                    Ses laboratoires ont fusionnés en 2009 afin de devenir un des leaders de l’industrie pharmaceutique.
-                                                    Le laboratoire désire mettre à disposition des visiteurs médicaux une application WEB permettant de centraliser les comptes rendus de visite. Cette base d’information sera utilisée à des fins d’élaboration de la démarche de communication auprès des praticiens.
-                                              </p>
+                                                 <p>Le laboratoire Galaxy Swiss Bourdin (GSB) souhaite mettre en place une meilleure gestion des conférences proposées aux visiteurs médicaux pour se tenir informés sur les nouveaux produits, les recherches en cours ou les difficultés rencontrées. Jusqu'ici, toutes les conférences étaient ouvertes à tous les visiteurs médicaux. Mais victime de son succès, aujourd'hui il n'y a souvent pas assez de place pour tout le monde. Afin d'éviter à nouveau ce problème, GSB souhaite proposer des inscriptions aux conférences via son site web et conserver l’historique des participations de chacun.</p>
                                                  <h2>Les Besoins</h2>
-                                                 <p>       
-                                                    L'application est destinée à la fois aux visiteurs médicaux et aux comptables en charges de leur gestion. Elle permet de saisir et d’enregistrer tous les frais engagés par les visiteurs médicaux aussi bien pour l’activité directe (déplacement, restauration et hébergement) que pour les activités annexes (événementiel, conférences, autres).     
-                                                 </p> 
+                                                 <p>
+                                                    Réalisation d'une application à partir d'un framework<sup>1</sup>, aucun existant mis à part la base de données, dans laquelle est stocké tous les visiteurs, animateur et responsable. Cette application permet aux  visiteurs médicaux de s'inscrire à des conférences proposées par des animateurs, mettant également un système de vue sur les statistiques pour le responsable.
+                                                 </p>
                                               </div>
+                                              <p class="def"><sup>1</sup> Un framework (ou infrastructure logicielle en français ) désigne en programmation informatique un ensemble d'outils et de composants logiciels à la base d'un logiciel ou d'une application.</p>
                                            </div>
                                         </div>
                                         <div class="col-lg-4">
@@ -1192,31 +1204,33 @@
                                               <h3>Informations</h3>
                                               <ul>
                                                  <li><strong>Catégorie</strong> : Application Web </li>
-                                                 <li><strong>Langage</strong> : HTML, CSS, PHP, SQL</li>
+                                                 <li><strong>Langage</strong> : HTML, CSS, PHP, SQL </li>
                                                  <li><strong>Outils</strong> : MariaDB </li>
                                                  <li><strong>Méthode</strong> : Modèle-Vue-Contrôleur (MVC) </li>
-                                                 <li><strong>Date</strong> : Novembre 2021</li>
+                                                 <li><strong>Framework</strong> : 
+                                                    <br>
+                                                    <a id="fmci" href="https://codeigniter.com/"><i class="fas fa-fire"></i> CodeIgniter</a></li>
+                      
+                                                 <li><strong>Date</strong> : Février/Mars 2022</li>
                                                  <li><strong>Collaboration</strong> :
                                                     <br> 
-                                                    <a id="collabYohann" href="https://yohann-fremont.fr/"> 
-                                                    <i class="fas fa-code"></i> Yohann Fremont</a>
-                                                    <br> 
-                                                    <a id="collabAlan" href="https://portfolio-2cb7d.web.app/"> 
-                                                    <i class="far fa-circle"></i>  Alan Boloorian</a>
+                                                    <a id="collabLeo" href="https://orvuss.github.io/Portfolio/"> 
+                                                    <i class="fas fa-code-branch"></i> Léo Datchi</a>
+                                                    <br>   
                                                  </li>
                                               </ul>
                                               <br>
                                               <h3>Compétences</h3>
-                                              <li>Répondre aux incidents et aux demandes d’assistance et d’évolution</li>
+                                              <li>Développer la présence en ligne de l’organisation</li>
                                               <li>Travailler en mode projet</li>
                                               <li>Organiser son développement professionnel</li>
                                            </div>
-                                           <a class="btn btn-primary text-uppercase" href="portfolio-details-SiteMarchand.html"><i class="fas fa-shower"></i> Projet AudioShower</a>
-                      
+                                           <a class="btn btn-primary text-uppercase" href="portfolio-details-GsbMat.html"><i class="fas fa-laptop-medical"></i> Projet GSB2</a>
                                         </div>
                                      </div>
                                   </div>
                                </section>
+                               
                              </div>
                           </div>
                        </div>
@@ -1280,6 +1294,8 @@
   -->
   <script src="./assets/js/script.js"></script>
   <script src="./assets/js/bootstrap.js"></script>
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
