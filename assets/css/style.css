@@ -501,6 +501,7 @@ main {
   gap: 15px;
   padding-bottom: 4px;
   padding-left: 7px;
+  list-style: none;
 }
 
 .social-item .social-link {
@@ -540,6 +541,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  list-style: none;
 }
 
 .navbar-link {
@@ -741,6 +743,7 @@ input:checked+.slider:before {
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
+  list-style: none;
 }
 
 .loisirs-item {
@@ -1216,6 +1219,7 @@ lottie-player {
 
 .timeline-item:not(:last-child) {
   margin-bottom: 20px;
+  list-style: none;
 }
 
 .timeline-item-title {
@@ -2046,6 +2050,7 @@ textarea.form-input::-webkit-resizer {
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
+    list-style-type: none;
   }
 
   .clients-item {
@@ -2214,6 +2219,7 @@ textarea.form-input::-webkit-resizer {
     gap: 25px;
     padding-left: 5px;
     margin-bottom: 30px;
+    list-style-type: none;
   }
 
   .filter-item button {
@@ -2235,6 +2241,7 @@ textarea.form-input::-webkit-resizer {
   .project-list,
   .blog-posts-list {
     grid-template-columns: 1fr 1fr;
+    list-style: none;
   }
 
 
