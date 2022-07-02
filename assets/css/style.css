@@ -1088,6 +1088,7 @@ lottie-player {
 
 .portfolio-details .portfolio-details-slider img {
 	width: 100%;
+  border-radius: 20px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1468,6 +1469,7 @@ lottie-player {
 
 .project-item-icon-box ion-icon {
   --ionicon-stroke-width: 50px;
+  text-decoration: none;
 }
 
 .project-img img {
@@ -1878,6 +1880,14 @@ textarea.form-input::-webkit-resizer {
 
   .info-content .title {
     padding: 5px 18px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .info-content .title:hover{
+    background-color: #26e8a0;
+    color: white;
+    font-weight: bolder;
+    transform: scale(1.05);
   }
 
   .info_more-btn {
