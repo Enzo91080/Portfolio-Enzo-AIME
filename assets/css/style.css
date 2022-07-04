@@ -70,6 +70,8 @@
 
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
+  --ff-dys: 'DystopianRegular', sans-serif;
+
 
   /* font-size */
   --fs-1: 24px;
@@ -870,6 +872,7 @@ lottie-player {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   opacity: 1;
+  background-color: var(--ma_couleur);
 }
 
 .modal-close-btn ion-icon {
@@ -1049,6 +1052,7 @@ lottie-player {
 
 
 .portfolio-modal .modal-content ul.list-inline {
+  list-style: none;
 	margin-bottom: 2rem;
 	font-weight: 500;
   color: var(--light-gray-70);
@@ -1216,6 +1220,7 @@ lottie-player {
 
 .timeline-item {
   position: relative;
+  list-style: none;
 }
 
 .timeline-item:not(:last-child) {
@@ -1598,6 +1603,7 @@ lottie-player {
   line-height: 1.6;
 }
 
+.
 
 
 
@@ -1887,8 +1893,48 @@ textarea.form-input::-webkit-resizer {
     background-color: #26e8a0;
     color: white;
     font-weight: bolder;
+    cursor: pointer;
     transform: scale(1.05);
   }
+
+  
+.tooltip{
+	padding: 0.6rem 0.7rem;
+    background-color: #26e8a0;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: DystopianRegular;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+    opacity: 0;
+    position: absolute;
+    transition: all 155ms ease-in-out;
+    z-index: 2;
+    text-align: ;
+  }
+
+
+  .tooltip::before{
+	content:"";
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #26e8a0;
+	position:absolute;
+	top: -15px;
+	left: 47%;
+	transform:translateX(-50%);
+  }
+  
+
+  .info-content .title:hover~.tooltip{
+	opacity: 1;
+	}
+  
+
 
   .info_more-btn {
     top: -30px;
@@ -2096,6 +2142,17 @@ textarea.form-input::-webkit-resizer {
   /**
    * #PORTFOLIO, BLOG
    */
+
+   .blog-text {
+    margin-bottom: 40px;
+  }
+
+  .blog-text .titre {
+      font-family: var(--ff-dys);
+      margin-top: 20px;
+      margin-bottom: 5px;
+
+  }
 
   .project-img,
   .blog-banner-box {
