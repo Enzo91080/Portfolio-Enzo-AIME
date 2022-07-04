@@ -1756,6 +1756,7 @@ textarea.form-input::-webkit-resizer {
   .clients-item {
     min-width: calc(33.33% - 10px);
   }
+  
 
 
 
@@ -1900,34 +1901,38 @@ textarea.form-input::-webkit-resizer {
   
 .tooltip{
 	padding: 0.6rem 0.7rem;
-    background-color: #26e8a0;
-    color: rgb(0, 0, 0);
-    font-size: 10px;
-    font-weight: bolder;
-    font-family: DystopianRegular;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    margin-top: 20px;
-    opacity: 0;
-    position: absolute;
-    transition: all 155ms ease-in-out;
-    z-index: 2;
-    text-align: ;
-  }
+	background-color: #26e8a0;
+	color: rgb(0, 0, 0);
+	font-size: 10px;
+	font-weight: bolder;
+	font-family: DystopianRegular;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	margin-top: 20px;
+	opacity: 0;
+	display: grid;
+	position: absolute;
+	transition: all 155ms ease-in-out;
+	z-index: 2;
+	text-align: ;
+	}
 
 
   .tooltip::before{
-	content:"";
+	content:
+	"";
 	width: 0;
 	height: 0;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 	border-bottom: 15px solid #26e8a0;
-	position:absolute;
+	position:
+	absolute;
 	top: -15px;
-	left: 47%;
-	transform:translateX(-50%);
-  }
+	left: 23%;
+	transform:
+	translateX(-50%);
+	}
   
 
   .info-content .title:hover~.tooltip{
@@ -2494,6 +2499,37 @@ textarea.form-input::-webkit-resizer {
     height: 60px;
   }
 
+
+  .tooltip{
+    padding: 0.6rem 0.7rem;
+      background-color: #26e8a0;
+      color: rgb(0, 0, 0);
+      font-size: 10px;
+      font-weight: bolder;
+      font-family: DystopianRegular;
+      letter-spacing: 1px;
+      border-radius: 5px;
+      margin-top: 20px;
+      opacity: 0;
+      position: absolute;
+      transition: all 155ms ease-in-out;
+      z-index: 2;
+      text-align: ;
+    }
+  
+  
+    .tooltip::before{
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #26e8a0;
+    position:absolute;
+    top: -15px;
+    left: 47%;
+    transform:translateX(-50%);
+    }
 
 
   /**
