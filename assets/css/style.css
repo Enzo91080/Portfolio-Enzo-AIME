@@ -58,7 +58,7 @@
   --smoky-black: #121212;
   --white-1: #ffffff;
   --white-2: #fafafa;
-  --ma_couleur: #26e8a0;
+  --ma_couleur: #005793;
   --vegas-gold: #ceb15a;
   --light-gray: #d6d6d6;
   --light-gray-70: #d6d6d6b3;
@@ -380,9 +380,14 @@ main {
   margin-bottom: 10px;
 }
 
-.info-content:first-child:hover {
+.info-content:first-child{
+  text-align: -webkit-center;
+  width: 70px;
+}
 
-	background:var(--ma_couleur);
+
+.info-content:first-child:hover {
+  background: var(--ma_couleur);
   border-radius: 15px;
 }
 
@@ -391,7 +396,7 @@ main {
 }
 
 .info-content svg:hover{
-  fill:rgb(255, 255, 255)
+  fill:rgb(255, 255, 255);
 }
 
 
@@ -563,7 +568,7 @@ main {
 }
 
 #dateheure {
-  background-color: #26e8a0;
+  background-color: #005793;
   line-height: 5px;
   border-radius: 15px;
   color:#000000;
@@ -1893,7 +1898,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .info-content .title:hover{
-    background-color: #26e8a0;
+    background-color: #005793;
     color: white;
     font-weight: bolder;
     cursor: pointer;
@@ -1903,7 +1908,7 @@ textarea.form-input::-webkit-resizer {
   
 .tooltip{
 	padding: 0.6rem 0.7rem;
-	background-color: #26e8a0;
+	background-color: #005793;
 	color: rgb(0, 0, 0);
 	font-size: 10px;
 	font-weight: bolder;
@@ -1927,7 +1932,7 @@ textarea.form-input::-webkit-resizer {
 	height: 0;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
-	border-bottom: 15px solid #26e8a0;
+	border-bottom: 15px solid #005793;
 	position:
 	absolute;
 	top: -15px;
@@ -2020,7 +2025,7 @@ textarea.form-input::-webkit-resizer {
 
   .service-icon-box {
     margin-bottom: 0;
-    margin-top: 5px;
+    margin-top: 20px;
   }
 
   .service-content-box {
@@ -2504,7 +2509,7 @@ textarea.form-input::-webkit-resizer {
 
   .tooltip{
     padding: 0.6rem 0.7rem;
-      background-color: #26e8a0;
+      background-color: #005793;
       color: rgb(0, 0, 0);
       font-size: 10px;
       font-weight: bolder;
@@ -2526,7 +2531,7 @@ textarea.form-input::-webkit-resizer {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 15px solid #26e8a0;
+    border-bottom: 15px solid #005793;
     position:absolute;
     top: -15px;
     left: 47%;
