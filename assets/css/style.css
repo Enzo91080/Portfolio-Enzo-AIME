@@ -381,8 +381,8 @@ main {
 }
 
 .info-content:first-child{
-  text-align: -webkit-center;
-  width: 70px;
+  width: 95px;
+  height: 95px;
 }
 
 
@@ -391,11 +391,10 @@ main {
   border-radius: 15px;
 }
 
-.info-content svg{
-  margin-top: 10px;
-}
 
-.info-content svg:hover{
+
+.info-content svg g path:hover,
+.info-content path:hover {
   fill:rgb(255, 255, 255);
 }
 
