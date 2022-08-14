@@ -4,7 +4,7 @@
 
 
 /**
- * copyright 2022 @codewithsadee
+ * copyright 2022 @enzoaime
  */
 
 
@@ -381,17 +381,23 @@ main {
 }
 
 .info-content:first-child{
-  width: 95px;
-  height: 95px;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .info-content:first-child:hover {
   background: var(--ma_couleur);
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 
+.info-content svg {
+  width: 15vh;
+}
 
 .info-content svg g path:hover,
 .info-content path:hover {
