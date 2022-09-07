@@ -9,7 +9,8 @@
 
 
  /* Fonts */
- @font-face {font-family: "DystopianRegular";
+ @font-face {
+  font-family: "DystopianRegular";
   src: url("../fonts/DystopianRegular/Dystopian.eot"); /* IE9*/
   src: url("../fonts/DystopianRegular/Dystopian.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
   url("../fonts/DystopianRegular/Dystopian.woff2") format("woff2"), /* chrome、firefox */
@@ -17,6 +18,7 @@
   url("../fonts/DystopianRegular/Dystopian.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   url("../fonts/DystopianRegular/Dystopian.svg#Dystopian Regular") format("svg"); /* iOS 4.1- */
 }
+
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -381,7 +383,7 @@ main {
 }
 
 .info-content:first-child{
-  width: 120px;
+  width: 110px;
   height: 30px;
   display: flex;
   align-items: center;
@@ -681,6 +683,8 @@ input:checked+.slider:before {
 
 .service-title {
   margin-bottom: 20px;
+  font-family: "DystopianRegular";
+
 }
 
 .service-list {
