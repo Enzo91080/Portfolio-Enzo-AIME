@@ -19,22 +19,22 @@
 </p>
 <p align="center">
   <p align="center">Parcours</p>
-  <img src="screenshots/experience.PNG" alt="Home section">
+
 </p>
 <br />
 <p align="center">
   <p align="center">Portfolio</p>
-  <img src="screenshots/projects.PNG" alt="About section">
+
 </p>
 <br />
 <p align="center">
   <p align="center">Blog</p>
-  <img src="screenshots/blog.PNG" alt="Experience section">
+
 </p>
 <br />
 <p align="center">
   <p align="center">Contact</p>
-  <img src="screenshots/contact.PNG" alt="Projects section">
+
 </p>
 <br />
 
